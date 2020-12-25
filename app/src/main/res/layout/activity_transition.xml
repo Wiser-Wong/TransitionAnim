@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="转场动画，使用谷歌提供的android.transition.Transition包中Activity转场切换动画，有三种转场动画方式：Explode, Slide 和Fade, 1、Explode：从屏幕的中间进入或退出。 2、Slide：从屏幕的一边向另一边进入或退出。 3、Fade：通过改变透明度来出现或消失"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
